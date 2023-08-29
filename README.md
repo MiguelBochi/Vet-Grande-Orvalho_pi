@@ -30,8 +30,15 @@ O ciclo de trabalho na clínica segue um processo simples: A recepcionista regis
 
 # Regras de negócio
 
-- **RN01 - Início do atendimento:** Para fazer o atendimento é necessário o cadastro do cliente e do animal.
-- **RN02 - Análise do paciente:** Para que ocorra a análise, o paciente deve estar cadastrado e com o horário marcado.
+## Gerais
+
+- **RN01 - Criação de consulta:** Para a criação de uma consulta é necessario que o animal e o cliente estejam cadastrados.
+
+Para fazer o atendimento é necessário o cadastro do cliente e do animal.
+
+- **RN02 - Consulta do paciente:** Para que ocorra a consulta é necesario que o 
+
+ Para que ocorra a análise, o paciente deve estar cadastrado e com o horário marcado.
 - **RN03 - Análise do orçamento:** O orçamento só pode ser registrado após a análise do paciente.
 - **RN04 - Tratamento:** O tratamento só pode ser feito em um animal já cadastrado e com a análise.
 - **RN05 - Pagamento e liberação do animal:** O pagamento inicial só pode ser feito após o tratamento do animal e assim, é possível haver a liberação do animal.
