@@ -17,7 +17,6 @@ A Clínica Veterinária Grande Orvalho opera de maneira simples e eficiente,poss
 
 O ciclo de trabalho na clínica segue um processo simples: A recepcionista registra os cliente e seus animais, após esse passo o cliente pode requisitar uma consulta com a recepcionista, após marcada, no dia da consulta o veterinário escrever um documento registrando o estado do animal, caso o animal necessite de um tratamento para alguma enfermidade, é feito um levantamento com os custos deste tratamento e enviado para o cliente, quando o tratamento acaba o animal é liberado da veterinária.
 
-
 ![Ciclo da Venda](docs/DesWeb_mod.webp)
 
 **Descrisão da Proposta**
@@ -36,9 +35,10 @@ O ciclo de trabalho na clínica segue um processo simples: A recepcionista regis
 
 Para fazer o atendimento é necessário o cadastro do cliente e do animal.
 
-- **RN02 - Consulta do paciente:** Para que ocorra a consulta é necesario que o 
+- **RN02 - Consulta do paciente:** Para que ocorra a consulta é necesario que o
 
- Para que ocorra a análise, o paciente deve estar cadastrado e com o horário marcado.
+Para que ocorra a análise, o paciente deve estar cadastrado e com o horário marcado.
+
 - **RN03 - Análise do orçamento:** O orçamento só pode ser registrado após a análise do paciente.
 - **RN04 - Tratamento:** O tratamento só pode ser feito em um animal já cadastrado e com a análise.
 - **RN05 - Pagamento e liberação do animal:** O pagamento inicial só pode ser feito após o tratamento do animal e assim, é possível haver a liberação do animal.
