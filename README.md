@@ -13,53 +13,20 @@ Links do projeto:
 
 # Situação Problema
 
-A Clínica Veterinária Grande Orvalho opera de maneira simples e eficiente, 
-possuindo apenas dois funcionários, um veterinário e uma recepcionista. A recepcionista tem o trabalho de registrar animais e clientes, marcar consultas, atualizar fichas dos animais e documentos, verificar relatório e ver os registros de pagamentos. Enquanto isso, o veterinário fica responsável por escrever os relatórios de suas consultas e criar os boletos.
+A Clínica Veterinária Grande Orvalho opera de maneira simples e eficiente,possuindo apenas dois funcionários, um veterinário e uma recepcionista. A recepcionista tem o trabalho de registrar animais e clientes, marcar consultas,atualizar documentos, verificar relatório e ver os registros de pagamentos. Enquanto isso, o veterinário fica responsável por escrever os relatórios de suas consultas, atualizar a ficha dos animais, criar os boletos e analisar o faturamento.
+
 O ciclo de trabalho na clínica segue um processo simples: A recepcionista registra os cliente e seus animais, após esse passo o cliente pode requisitar uma consulta com a recepcionista, após marcada, no dia da consulta o veterinário escrever um documento registrando o estado do animal, caso o animal necessite de um tratamento para alguma enfermidade, é feito um levantamento com os custos deste tratamento e enviado para o cliente, quando o tratamento acaba o animal é liberado da veterinária.
 
 
-
-## 3- Ordem de Serviço (O.S.)
+![Ciclo da Venda](docs/DesWeb_mod.webp)
 
 **Descrisão da Proposta**
 
-- O sistema desenvolvido contara como uma ferramenta para ajudar na manutenção da clínica veterinaria. O sistema sera desenvolvido em duas partes: Frontend que usara o React Native para dispositivos moveis e Vue 3 para serviços locais e para o Backend sera usado o framework Django. Nosso sistema tem como objetivo facilitar a implementação de dados e sua manutenção.
+- O sistema desenvolvido contará como uma ferramenta para ajudar na manutenção da clínica veterinária. O sistema será desenvolvido em duas partes: Frontend que usará o React Native para dispositivos móveis e Vue 3 para serviços locais e para o Backend será usado o framework Django. Nosso sistema tem como objetivo facilitar a parte de gerenciamento dos documentos e arquivos da veterinária.
 
-- O sistema mobile contara com uma serie de ferramenta de uso exclusivo para clientes, sendo elas marcagem de consultas, visualização de relatorios, sistema de notifição, visualização de dados, troca de senhas. 
+- O Aplicação mobile contará com uma série de ferramentas de uso exclusivo para clientes, sendo elas marcagem de consultas, visualização de relatórios, sistema de notificação, visualização de dados, troca de senhas.
 
-- A aplicação desenvolvida servirá como uma ferramenta de uso majoritário pelos clientes da clínica veterinária. Os clientes poderão agendar consultas com facilidade e ter acesso aos relatórios completos de seus animais, bem como uma ficha atualizada com o status de saúde e histórico médico.Além disso, o sistema contará com recursos adicionais para melhorar a experiência dos clientes. Será incluído um calendário integrado que permitirá a visualização das datas e horários disponíveis para agendamento de consultas. Dessa forma, os clientes poderão escolher o horário mais conveniente para eles e seus animais de estimação.Outro recurso importante será um sistema de notificação que enviará lembretes automáticos aos clientes sobre as consultas agendadas. Isso ajudará a evitar esquecimentos e garantir que os clientes estejam cientes dos horários marcados.Além disso, para os animais que estão em tratamento domiciliar e precisam tomar medicação regularmente, o sistema fornecerá um sistema de lembretes de horário. Os clientes receberão alertas no aplicativo, informando-os sobre o momento exato em que o animal precisa tomar a medicação. Isso garantirá que o tratamento seja seguido corretamente, mesmo fora da clínica. Esses recursos adicionais visam oferecer comodidade e praticidade aos clientes, proporcionando uma experiência completa e facilitando o cuidado com seus animais de estimação. Através desse sistema, a clínica veterinária busca melhorar o relacionamento com os clientes, além de fornecer um serviço de qualidade e atendimento personalizado.
-
-# Situação Problema
-
-![Ciclo da Venda](docs/DesWeb_mod.webp)
-
-**Introdução**
-
-A empresa é uma pequena veterinária chamada _Grande Orvalho_ que começou a ter um crescimento nos últimos meses. Seu dono é um veterinário chamado Sr. Bob, que faz os cuidados e o tratamento dos animais. Junto a isso, tem sua funcionária Nã, que ajuda na recepção dos clientes e da manutenção geral.
-
-A empresa funciona em etapas: cliente, cadastro, análise do paciente e orçamento, análise de crédito, tratamento, pagamento inicial e liberação do animal.
-
-- **Cliente**: o cliente faz o seu cadastro e de seu animal na recepção;
-- **Cadastro**: é feito pelo recepcionista e junto é marcado uma consulta;
-- **Análise do paciente e orçamento**: na consulta, é avaliada a situação do animal e após isso é feito um orçamento (material e tempo);
-- **Pagamento inicial**: pagamento inicial, podendo ser em prestações ou à vista.
-- **Tratamento**: o tratamento pode ser feito de diversas formas, desde cirurgias até medicações;
-- **Liberação do animal**: após o tratamento, o animal é liberado.
-
-Verificou-se que sem um sistema fica difícil categorizar os animais que estão em tratamento ou já saíram dele, e também temos dificuldade em ver como está o pagamento do tratamento e confirmar se foi feita a análise de crédito.
-
-# Descrição da proposta
-
-Criar uma aplicação que auxilie na retenção de dados referente aos animais, pagamentos e tratamentos, evitando a perda de informações.
-
-**MELHORAR, COLOCANDO O OBJETIVO.**
-
-**Alguns pontos importantes a se destacar são:**
-
-- Ter um acesso mais rápido ao dados relacionados aos animais e seus pagamentos sem a perda de informações.
-- O gestor terá acesso total ao sistema, podendo apagar dados e os funcionários terão acesso parcial podendo apenas criar cadastros e pesquisar dados.
-- As principais funcoinalidades do sistema serão: cadastro, login, pesquisa e verificação de dados.
-- O sistema terá um sistema de permissão de usuários, sendo que os de maior nível terão a capacidade de manipular os dados podendo deletá-los. Já os usuários de baixo nível poderão apenas cadastrar e pesquisar.
+- O Aplicação Web contará com diferente permissões para diferentes tipos de usuários. funcionários como secretarias terão acesso a criação de contas para clientes, animais e consultas, como também poderá visualizar uma lista dos animais, clientes, consultas e relatórios, enquanto do doutor poderá editar os animais e consultas, como também gerar relatórios e pagamentos.
 
 # Regras de negócio
 
